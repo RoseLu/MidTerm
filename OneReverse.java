@@ -13,7 +13,7 @@ public class OneReverse {
 
 	}
 
-	//main method
+	// main method
 	public static void main(String[] args) {
 
 		ArrayList<Integer> list = new ArrayList<Integer>();
@@ -29,6 +29,7 @@ public class OneReverse {
 			list.remove(list.get(i));
 		}
 
+		reverse(list);
 		System.out.print("After reverse: " + list);
 
 	}
