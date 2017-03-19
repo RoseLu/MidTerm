@@ -9,16 +9,16 @@ public class ThreeSingleNumber {
 
 		//put the numbers into Hashmap except the repeat nums
 		for (int i = 0; i < nums.length; i++) {
-			//define which nums have the value-twice
+			//define which numbers can have the value:twice
 			if (map.containsKey(nums[i])) {
 				map.put(nums[i], "twice");
 			} 
-			//define which nums have the value-once
+			//define which numbers can have the value:once
 			else {
 				map.put(nums[i], "once");
 			}
 			
-			//print the num whose value is once
+			//print the number whose value is once
 			for (int s : map.keySet()) {
 				if (map.get(s) == "once") {
 					System.out.println(s);
