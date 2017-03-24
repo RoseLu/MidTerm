@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class ThreeSingleNumber {
-	public static void singleNumber(int[] nums) {
+	public static void singleNumber(int[] nums) {                 //wrong(-3):do not change the return type required by the question. If the input is {2,2,1}, you print out {2,1}, but the answer is 1.
 		Map<Integer, String> map = new HashMap<>();
 
 		//put the numbers into Hashmap except the repeat nums
