@@ -4,7 +4,7 @@ import java.awt.List;
 import java.util.ArrayList;
 
 public class FiveTriangle {
-	public List<Integer> getRow(int rowIndex) {
+	public List<Integer> getRow(int rowIndex) {                    //correct
 		ArrayList<Integer> al = new ArrayList<Integer>();
 		 
 		if (rowIndex < 0)
