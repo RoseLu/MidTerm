@@ -3,7 +3,7 @@ package assignment;
 import java.util.TreeSet;
 
 public class TwoGenerate {
-	public static String generateStrings(String s1, String s2) {
+	public static String generateStrings(String s1, String s2) {             //correct
 		TreeSet<String> ts = new TreeSet<String>();
 		
 		//corner case
