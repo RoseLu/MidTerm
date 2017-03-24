@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class FourTwoSum {
-	public int[] twoSum(int[] nums, int target) {
+	public int[] twoSum(int[] nums, int target) {                     //correct
 		Map<Integer, Integer> map = new HashMap<>();
 
 		// put all the nums from array to the Hashmap
