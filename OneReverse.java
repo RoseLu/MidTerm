@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class OneReverse {
 
-	public static void reverse(ArrayList<Integer> list) {
+	public static void reverse(ArrayList<Integer> list) {          //correct
 
 		for (int i = list.size() - 1; i >= 0; i--) {
 			list.add(list.get(i));
